@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  tomcat-db-api:
+<<<<<<< HEAD
+    image: costin_back
+=======
+    image: costin_backend
+>>>>>>> 9cb93f4ba05fad33ba539d32a99ed8eece2f0a53
+    ports:
+       - "8080:8080"
